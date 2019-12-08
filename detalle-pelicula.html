@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Film Activity</title>
+    <link rel="shortcut icon" href="img/title-icon.png" type="image/x-icon">
+    <link href="https://fonts.googleapis.com/css?family=Dancing+Script:600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/navbar.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/detalle-pelicula.css">
+</head>
+<body>
+<div class="header">
+  <div id="headerTitle">
+    <h1>Film Activity</h1>
+    <img src="img/logotipo.png" alt="logotipo">
+  </div>
+</div>
+<nav class="navbar">
+  <!--<h3>Film Activity</h3>-->
+  <ul class="list">
+    <li><a class="active" href="#Inicio">Inicio</a></li>
+    <li><a href="#Novedades">Novedades</a></li>
+    <li><a href="#Películas">Películas</a></li>
+    <li><a href="#Series">Series</a></li>
+    <li><a href="#Favoritos">Favoritos</a></li>
+    <li><a href="#Cerrar Sesión">Cerrar Sesión</a></li>
+    <div class="buscador">
+      <input type="search" placeholder="Buscar película o serie">
+      <button>Buscar</button>
+    </div>
+  </ul>
+</nav>
+
+<main>
+  <div class="vContainer">
+    <section>
+      <!--<h2>La liga de los hombres extraordinarios</h2>-->
+      <article>
+        <div class="detalles">
+          <img src="img/la-liga-de-los-hombres-extraordinarios.jpg">
+          <h3>La liga de los hombres extraordinarios</h3>
+          <table>
+            <tr>
+              <th>Calificación</th>
+              <td>3.5/5</td>
+            </tr>
+            <tr>
+              <th>Año de publicación</th>
+              <td>11 Julio 2003</td>
+            </tr>
+            <tr>
+              <th>Actores</th>
+              <td>
+                <ul id="actores">
+                  <li>Sean Connery</li><br>
+                  <li>Shane West</li><br>
+                  <li>Peta Wilson</li><br>
+                  <li>Stuart Townsend</li><br>
+                  <li>Richard Roxburgh</li><br>
+                  <li>Naseeruddin Shah</li><br>
+                  <li>Tony Curran</li><br>
+                  <li>Jason Flemyng</li><br>
+                  <li>Max Ryan</li><br>
+                  <li>Joel Kirby</li><br>
+                </ul>
+              </td>
+            </tr>
+            <tr>
+              <th>Sinopsis</th>
+              <td id="sinopsis">En la Inglaterra victoriana, un malvado comete sus fechorías con la intención de provocar una guerra mundial. Intentando evitarlo, las autoridades reclutarán a un grupo de valientes con una peculiaridad: todos son héroes literarios.
+                Así Allan Quatermain (de Las minas del Rey Salomón interpretado por Sean Conery), el mayor aventurero del mundo, encabeza un grupo de superhéroes, como Sayer o el Doctor Jekyll que son los encargados de enfrentarse a los peligros correspondientes.
+                La extraordinaria Liga de Quatermain está compuesta por el capitán Nemo (Naseeruddin Shah), la vampiresa de Drácula Mina Harker (Peta Wilson), el hombre invisible Rodney Skinner (Tony Curran), el agente del servicio secreto americano Sawyer (Shane West), Dorian Gray (Stuart Townsend), y el Dr. Jekyll / Mr. Hyde (Jason Flemyng). El enigmático M (Richard Roxburgh), es quien recluta a la Liga.
+                Los miembros de la Liga son contumaces individualistas, forajidos de hecho, con pasados en los que hay luces y sombras y singulares dones que les han reportado alegrías y penalidades a la par. Ahora deben aprenden a confiar los unos en los otros y trabajar como equipo por el bien y la esperanza de la civilización. Con poca preparación y ningún tiempo que perder, han de viajar en el extraordinario submarino del capitán Nemo, el Nautilus, a la primera línea de defensa: Venecia, Italia. Allí, un enmascarado y loco sujeto, conocido como El Fantasma, planea sabotear una conferencia de líderes mundiales mediante una cadena de explosiones sucesivas, anegando por completo la ciudad. La amenaza es de proporciones catastróficas, los riesgos son mayúsculos.</td>
+            </tr>
+          </table>
+        </div>
+      </article>
+      <article>
+        <div>
+          <h3>Trailer</h3>
+          <p align="center"><iframe id="video" width="560" height="315" src="https://www.youtube.com/embed/uKt2OIak0vo" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+          </iframe></p>
+        </div>
+      </article>
+      <article>
+        <h3>Películas Similares</h3>
+        <div class="gridContainer">
+          <article>
+            <div><img class="relacionado" src="img/la-liga-de-la-justicia.jpg"></div>
+            <div><img class="relacionado" src="img/hellboy.jpg"></div>
+            <div><img class="relacionado" src="img/watchmen.jpg"></div>
+            <div><img class="relacionado" src="img/van-helsing.jpg"></div>
+          </article>
+        </div>
+      </article>
+    </section>
+  </div>
+</main>
+
+
+</body>
+</html>

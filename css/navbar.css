@@ -1,0 +1,110 @@
+body, html{
+  margin: 0;
+}
+
+.navbar ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333129;
+  top: 0;
+  width: 100%;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #75745A;
+}
+
+h1, h2 {
+  position: relative;
+  font-size: 3rem;
+  margin: 0;
+  text-align: center;
+  background-color: #333129;
+  font-family: Dancing Script;
+  color: white;
+}
+
+.header {
+  background-color: #333129;
+}
+
+.header img {
+  width: 100px;
+  height: 100px;
+  padding: 0 20px;
+}
+
+.header h1 {
+  font-size: 5rem;
+  text-align: center;
+  float: left;
+}
+
+#headerTitle {
+  width: 50%;
+  margin: 0 auto;
+}
+
+.buscador {
+  float: right;
+}
+
+.buscador input, button{
+  margin-top: 15px;
+  margin-right: 3px;
+  height: 25px;
+  border-radius: 2px;
+}
+
+@media all and (max-width:860px) {
+  .buscador{
+    display: none;
+  }
+}
+
+@media all and (max-width:1040px) {
+  .header img{
+    display: none;
+  }
+
+  .header h1{
+    float: none;
+  }
+}
+
+@media all and (max-width:620px) {
+  .list li{
+    float: left;
+    clear: left;
+  }
+}
+
+/*
+.header img{
+  float: contour;
+  width: 75px;
+  height: 75px;
+  background: #555;
+}
+
+.header h1{
+  font-size: 5rem;
+
+}
+*/
+
